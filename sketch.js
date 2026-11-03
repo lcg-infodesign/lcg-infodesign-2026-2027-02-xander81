@@ -35,9 +35,6 @@ function draw() {
   }
 }
 
-function draw() {
-}
-
 function mioGLifo(_x, _y, _size) {
   const s = _size / 520; // scala rispetto al disegno originale
   const compounds = ['#e10600', '#ffd300', '#f2f2f2','#00A651','#800080','#0000FF']; 
