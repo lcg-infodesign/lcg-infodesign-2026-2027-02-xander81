@@ -4,18 +4,8 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-    angleMode(DEGREES);
-    background(220);
-  console.log('p5.js version:', p5.VERSION);
-  // put setup code here
-  const message =
-    "This is a template repository\nfor the course Laboratorio di Computergrafica\nCommunication Design, Politecnico di Milano";
-  textAlign(CENTER, CENTER);
-  textSize(16);
-  text(message, width / 2, height / 2);
-}
-
-function draw() {
+  angleMode(DEGREES);
+  background(220);
 
   //disegno glifi a scacchiera
   let nGlifi = 16;
@@ -79,5 +69,4 @@ function mioGLifo(_x, _y, _size) {
   circle(0, 0, 18 * s);
 
   pop();
-}
 }
